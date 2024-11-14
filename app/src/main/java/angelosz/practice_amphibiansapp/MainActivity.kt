@@ -16,6 +16,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Practice_amphibiansAppTheme {
                 Surface(modifier = Modifier.fillMaxSize()) {
+                    AmphibianApp()
                 }
             }
         }
